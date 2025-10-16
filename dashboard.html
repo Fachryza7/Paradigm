@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - WealthEase-AI Forecasting & Budget Planning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>WealthEase</h2>
+                <span class="nav-subtitle">AI Forecasting & Budget Planning</span>
+            </div>
+            <div class="nav-user">
+                <span id="user-name">Loading...</span>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Status Banner -->
+            <div class="status-banner">
+                <div class="status-card">
+                    <div class="status-header">
+                        <h3>API Status</h3>
+                    </div>
+                    <div class="status-content">
+                        <div id="openai-status" class="status-item">
+                            <div class="status-indicator" id="openai-indicator"></div>
+                            <span id="openai-text">Checking OpenAI connection...</span>
+                            <button id="connect-btn" class="connect-btn" style="display: none;">Connect Now</button>
+                            <button id="recheck-btn" class="recheck-btn" onclick="recheckOpenAI()" style="display: none;">Recheck</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Cards -->
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Budget Overview</h3>
+                        <div class="card-icon">💰</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="placeholder-content">
+                            <p>Your budget insights will appear here</p>
+                            <div class="placeholder-chart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>AI Forecasts</h3>
+                        <div class="card-icon">🔮</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="placeholder-content">
+                            <p>AI-powered financial forecasts coming soon</p>
+                            <div class="placeholder-chart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Expense Tracking</h3>
+                        <div class="card-icon">📊</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="placeholder-content">
+                            <p>Track your expenses with AI assistance</p>
+                            <div class="placeholder-chart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3>Investment Insights</h3>
+                        <div class="card-icon">📈</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="placeholder-content">
+                            <p>Smart investment recommendations</p>
+                            <div class="placeholder-chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="auth.js"></script>
+    <script src="openai-check.js"></script>
+</body>
+</html>
