@@ -1,0 +1,124 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-01-15",
+      "type": "expense",
+      "category": "Makanan",
+      "amount": 150000,
+      "description": "Makan siang di restoran"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-16",
+      "type": "income",
+      "category": "Gaji",
+      "amount": 5000000,
+      "description": "Gaji bulanan"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-17",
+      "type": "expense",
+      "category": "Transportasi",
+      "amount": 25000,
+      "description": "Ojek online"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-18",
+      "type": "expense",
+      "category": "Tagihan",
+      "amount": 500000,
+      "description": "Listrik bulanan"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-19",
+      "type": "expense",
+      "category": "Investasi",
+      "amount": 1000000,
+      "description": "Saham"
+    },
+    {
+      "id": 6,
+      "date": "2024-01-20",
+      "type": "expense",
+      "category": "Makanan",
+      "amount": 80000,
+      "description": "Belanja bahan makanan"
+    },
+    {
+      "id": 7,
+      "date": "2024-01-21",
+      "type": "expense",
+      "category": "Transportasi",
+      "amount": 150000,
+      "description": "Bensin mobil"
+    },
+    {
+      "id": 8,
+      "date": "2024-01-22",
+      "type": "expense",
+      "category": "Tagihan",
+      "amount": 300000,
+      "description": "Internet"
+    },
+    {
+      "id": 9,
+      "date": "2024-01-23",
+      "type": "expense",
+      "category": "Investasi",
+      "amount": 500000,
+      "description": "Reksadana"
+    },
+    {
+      "id": 10,
+      "date": "2024-01-24",
+      "type": "expense",
+      "category": "Makanan",
+      "amount": 200000,
+      "description": "Makan malam keluarga"
+    },
+    {
+      "id": 11,
+      "date": "2024-01-25",
+      "type": "income",
+      "category": "Freelance",
+      "amount": 2000000,
+      "description": "Proyek freelance"
+    },
+    {
+      "id": 12,
+      "date": "2024-01-26",
+      "type": "expense",
+      "category": "Transportasi",
+      "amount": 100000,
+      "description": "Parkir"
+    },
+    {
+      "id": 13,
+      "date": "2024-01-27",
+      "type": "expense",
+      "category": "Tagihan",
+      "amount": 400000,
+      "description": "Air"
+    },
+    {
+      "id": 14,
+      "date": "2024-01-28",
+      "type": "expense",
+      "category": "Investasi",
+      "amount": 750000,
+      "description": "Emas"
+    },
+    {
+      "id": 15,
+      "date": "2024-01-29",
+      "type": "expense",
+      "category": "Makanan",
+      "amount": 120000,
+      "description": "Kopi dan snack"
+    }
+  ]
+}
